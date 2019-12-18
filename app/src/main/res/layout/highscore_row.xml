@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Written by Abhishek Jajal for CS6326.001, assignment 6, starting November  10, 2019.
+NetID: apj180001
+Layout for each row in highScore list
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/leftRight_padding"
+        android:paddingRight="@dimen/leftRight_padding"
+        android:paddingTop="@dimen/topDown_padding"
+        android:paddingBottom="@dimen/topDown_padding"
+        >
+
+    <TextView
+            android:id="@+id/ranking"
+            android:layout_width="wrap_content"
+            android:ems="2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:id="@+id/playerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text="item1_1"/>
+    <TextView
+            android:id="@+id/score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text="item1_2"/>
+    <TextView
+            android:id="@+id/dateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text="item1_3"    />
+
+</LinearLayout>

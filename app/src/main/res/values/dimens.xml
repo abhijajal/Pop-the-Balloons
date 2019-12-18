@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="leftRight_margin">16dp</dimen>
+    <dimen name="Top_margin">32dp</dimen>
+    <dimen name="leftRight_padding">16dp</dimen>
+    <dimen name="topDown_margin">8dp</dimen>
+    <dimen name="topDown_padding">8dp</dimen>
+    <dimen name="secondsPicker_width">300dp</dimen>
+    <dimen name="welcomeTextSize">35sp</dimen>
+    <dimen name="playButtonTextSize">40sp</dimen>
+    <dimen name="instructionTextSize">35sp</dimen>
+    <dimen name="missedText">25sp</dimen>
+    <dimen name="playGroundBorder">4dp</dimen>
+
+</resources>
